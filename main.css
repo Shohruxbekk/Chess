@@ -1,0 +1,54 @@
+.main{
+    width: 820px;
+    height: 820px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+  
+   
+
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    margin-left: 500px ;
+}
+
+.container1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border: none;
+ 
+
+}
+
+.container2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border: none;
+
+}
+
+.cont{
+    font-size: 90px;
+    text-align: center;
+    padding-bottom: 20px;
+   
+}
+
+
+
+.container1:nth-child(even){
+    background-color: green;
+}
+
+.container2:nth-child(odd){
+    background-color: green;
+}
+
+
